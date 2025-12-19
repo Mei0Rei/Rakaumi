@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "Rakaumi",
+  url: "https://rakaumi.netlify.app/",
+  description: `A gateway into Rakaumi.`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "1L4eGmka7lOBGDqzFysx34BvjyIZMXdl_otJ57ca7VXo",
 
   pages: {
     masterlist:    "masterlist",
@@ -43,11 +43,11 @@ charadex.sheet = {
   options: {
 
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    statuses: ['All', 'For Sale (Rakaumi Currency)', 'For Sale (Real Currency)', 'For Trade', 'Swapping', 'Freebie/Raffle', 'Foreverhomed', 'Voided'],
+    rarity: ['All', 'Standard', 'Oddpart', 'Special', 'Bug', 'Aqua', 'Cyber', 'Bloom'],
+    species: ['All', 'BloomCritter', 'CyberCritter', 'AquaCritter', 'BugCritter'],
+    itemTypes: ['All', 'Currency', 'MYO Slot', 'Misc', 'Trait'],
+    traitTypes: ['All', 'Antenna', 'Head Detail', 'Battery Pack', 'Container Part', 'Paws', 'Tail', 'Extra']
 
   }
 
