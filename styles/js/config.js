@@ -44,7 +44,7 @@ charadex.sheet = {
 
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'For Sale (Rakaumi Currency)', 'For Sale (Real Currency)', 'For Trade', 'Swapping', 'Freebie/Raffle', 'Foreverhomed', 'Voided'],
-    rarity: ['All', 'Standard', 'Oddpart', 'Special', 'Bug', 'Aqua', 'Cyber', 'Bloom'],
+    type: ['All', 'Standard', 'Oddpart', 'Special', 'Bug', 'Aqua', 'Cyber', 'Bloom'],
     species: ['All', 'BloomCritter', 'CyberCritter', 'AquaCritter', 'BugCritter'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Misc', 'Trait'],
     traitTypes: ['All', 'Antenna', 'Head Detail', 'Battery Pack', 'Container Part', 'Paws', 'Tail', 'Extra']
@@ -86,7 +86,7 @@ charadex.page.items = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.itemTypes,
-      'Rarity': charadex.sheet.options.rarity,
+      'Type': charadex.sheet.options.type,
     }
   },
 
@@ -99,7 +99,7 @@ charadex.page.items = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item', 'Rarity']
+    parameters: ['All', 'Item', 'Type']
   },
 
   prevNext: {
@@ -135,7 +135,7 @@ charadex.page.traits = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'Rarity': charadex.sheet.options.rarity,
+      'Type': charadex.sheet.options.type,
     }
   },
 
@@ -148,7 +148,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Trait', 'Type']
   },
 
   prevNext: {
@@ -330,7 +330,7 @@ charadex.page.masterlist = {
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
       'Status': charadex.sheet.options.statuses,
-      'Rarity': charadex.sheet.options.rarity,
+      'Type': charadex.sheet.options.type,
     }
   },
 
@@ -494,7 +494,7 @@ charadex.page.inventory = {
       toggle: true,
       parameters: {
         'Type': charadex.sheet.options.itemTypes,
-        'Rarity': charadex.sheet.options.rarity,
+        'Type': charadex.sheet.options.type,
       }
     },
 
