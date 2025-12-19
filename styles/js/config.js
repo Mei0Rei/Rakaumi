@@ -45,7 +45,7 @@ charadex.sheet = {
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'For Sale (Rakaumi Currency)', 'For Sale (Real Currency)', 'For Trade', 'Swapping', 'Freebie/Raffle', 'Foreverhomed', 'Voided'],
     rarity: ['All', 'Standard', 'Oddpart', 'Special', 'Bug', 'Aqua', 'Cyber', 'Bloom'],
-    species: ['All', 'BloomCritter'],
+    species: ['All', 'BloomCritter', 'CyberCritter', 'AquaCritter', 'BugCritter'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Misc', 'Trait'],
     traitTypes: ['All', 'Antenna', 'Head Detail', 'Battery Pack', 'Container Part', 'Paws', 'Tail', 'Extra']
 
